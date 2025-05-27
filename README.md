@@ -12,7 +12,7 @@ This project serves as a backend server for IoT applications where ESP32 or simi
 
 ---
 
-## Overview
+## 🚀 Overview
 
 This project demonstrates how to build a lightweight Flask web server that can receive data from an ESP32 device over the network. The ESP32 collects temperature and humidity values from sensors (like DHT11/DHT22) and sends this data as JSON to the Flask API endpoint.
 
@@ -27,7 +27,7 @@ This backend could be further extended to store data in a database, trigger aler
 
 ---
 
-## Features
+## ✨ Features
 
 - Simple and easy-to-understand Flask REST API
 - Receives sensor data (temperature & humidity) from IoT devices
@@ -38,7 +38,7 @@ This backend could be further extended to store data in a database, trigger aler
 
 ---
 
-## Setup Instructions
+## ⚙️ Setup Instructions
 
 ### Prerequisites
 
@@ -49,7 +49,7 @@ Before you begin, ensure you have the following installed:
 - Flask library: Install via pip
 - An ESP32 development board with Wi-Fi connectivity
 
-## Tools and Libraries
+## 🛠️ Tools and Libraries
 
 | Tool / Library        | Purpose                                           | Installation / Reference                         |
 |----------------------|-------------------------------------------------|-------------------------------------------------|
