@@ -6,9 +6,11 @@
 |-----------------|-------------------|-----------------------------------------------|
 | Jason Emmanuel  | Back-End Developer | [linkedin.com/in/jasoneml](https://www.linkedin.com/in/jasoneml/) |
 
-This project provides a simple RESTful API built with Flask, designed to receive environmental sensor data—specifically temperature and humidity—sent from an ESP32 microcontroller device. The API accepts HTTP POST requests with JSON payloads, validates and processes the data, and responds with confirmation or error messages.
+This project demonstrates a lightweight backend solution to collect environmental sensor data from an ESP32 microcontroller device. Using Flask, a simple RESTful API is created to receive temperature and humidity data sent over HTTP POST requests in JSON format.
 
-This project serves as a backend server for IoT applications where ESP32 or similar microcontroller devices send sensor data to be collected, stored, or further processed.
+The ESP32 device, equipped with sensors like DHT11 or DHT22, gathers real-time environmental data and sends it to the Flask API endpoint `/data`. The backend validates incoming data, responds with clear success or error messages, and prints the data on the server console for monitoring.
+
+This project can serve as the foundation for IoT applications including home automation, environmental monitoring, and data logging systems.
 
 ---
 
@@ -29,25 +31,15 @@ This backend could be further extended to store data in a database, trigger aler
 
 ## ✨ Features
 
-- Simple and easy-to-understand Flask REST API
-- Receives sensor data (temperature & humidity) from IoT devices
-- Validates JSON data and handles missing or invalid input gracefully
-- Returns clear JSON success or error responses
-- Prints incoming data for server-side monitoring
-- Lightweight and suitable for small-scale IoT projects
+- RESTful API using Flask for simple data reception
+- Supports JSON POST requests with temperature and humidity data
+- Data validation to ensure completeness and correctness
+- Meaningful JSON responses for success and errors
+- Console logging for real-time data monitoring
+- Easy to extend with database storage or notification systems
+- Suitable for IoT beginners and embedded systems integration
 
 ---
-
-## ⚙️ Setup Instructions
-
-### Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- Python 3.x: https://www.python.org/downloads/
-- pip (Python package installer)
-- Flask library: Install via pip
-- An ESP32 development board with Wi-Fi connectivity
 
 ## 🛠️ Tools and Libraries
 
