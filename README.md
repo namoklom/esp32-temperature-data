@@ -1,4 +1,4 @@
-# ESP32 Sensor Data Gathering API Using Flask
+# ESP32 Microcontroller Data Gathering with Embedded C++
 
 ## 👤 Author
 
